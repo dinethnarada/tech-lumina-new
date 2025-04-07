@@ -33,7 +33,7 @@ const Navbar = () => {
                 <div className="md:hidden">
                   <Link 
                     href="/contact"
-                    className="bg-[#6B17ED] text-white px-8 py-3 rounded-full text-sm tracking-widest font-mono hover:bg-[#5612c4] transition-all uppercase"
+                    className="bg-transparent text-white px-8 py-3 rounded-full text-sm tracking-widest font-mono border border-[#6B17ED] hover:bg-white hover:text-black hover:border-white transition-all uppercase"
                   >
                     CONTACT
                   </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
               <div className="hidden md:block">
                 <Link 
                   href="/contact"
-                  className="bg-[#6B17ED] text-white px-8 py-3 rounded-full text-sm tracking-widest font-mono hover:bg-[#5612c4] transition-all uppercase"
+                  className="bg-transparent text-white px-8 py-3 rounded-full text-sm tracking-widest font-mono border border-[#6B17ED] hover:bg-white hover:text-black hover:border-white transition-all uppercase"
                 >
                   CONTACT
                 </Link>
