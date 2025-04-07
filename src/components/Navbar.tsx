@@ -8,9 +8,9 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full top-0 left-0">
+    <nav className="fixed w-full top-0 left-0 z-50">
       <div className="mx-auto max-w-5xl md:pt-4 md:px-4">
-        <div className="bg-gradient-to-r from-[#1a0033] to-[#2b0042] backdrop-blur-sm md:rounded-full border-b border-white/10 md:border relative">
+        <div className="bg-gradient-to-r from-[#130420] via-[#1C054D] to-[#0B0215] backdrop-blur-sm md:rounded-full border-b border-white/20 md:border-1 relative">
           <div className="flex flex-col md:flex-row md:items-center">
             {/* Top Bar */}
             <div className="h-20 flex items-center justify-between px-6">
