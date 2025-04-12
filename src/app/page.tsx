@@ -25,12 +25,14 @@ export default function Home() {
           <TechLuminaSolutions />
         </div>
       </div>
+      <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
       <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-black via-[#332b00] to-[#2b0058]">
         <PlexusBackground />
         <div className="relative z-10">
           <Questions />
         </div>
       </div>
+      <div className="w-full h-px bg-gradient-to-r from-transparent via-white to-transparent" />
       <Footer />
     </main>
   );
