@@ -32,9 +32,9 @@ const FeaturedProjects = () => {
       }`}
     >
       <div id="digital-solutions" className="max-w-5xl mx-auto py-20 px-6">
-        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center font-bold">Digital Solutions & Tech Services</h2>
+        <h2 className="z-10 text-4xl md:text-5xl font-bold mb-16 text-center font-bold">Digital Solutions & Tech Services</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="z-10 grid grid-cols-1 md:grid-cols-2 gap-8">
           <ServiceCard
             imageSrc="/web-development.png"
             title="Web Development"
