@@ -32,9 +32,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-xl md:text-2xl font-mono text-gray-300 max-w-3xl relative pl-4 border-l border-indigo-400/30">
-                <span className="text-gray-400">/* </span> 
-                Crafting Tomorrow's Websites, Today! 
-                <span className="text-gray-400"> */</span>
+                {"/* "}
+                Crafting Tomorrow&apos;s Websites, Today! 
+                {" */"}
               </p>
             </div>
           </div>
