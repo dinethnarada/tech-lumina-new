@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="text-white relative min-h-screen bg-[#130420]">
       {/* Single PlexusBackground for all sections */}
-      <div className="fixed inset-0 z-0">
+      <div className="fixed inset-0 z-9">
         <PlexusBackground />
       </div>
 
@@ -28,7 +28,7 @@ export default function Home() {
 
         <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
         
-        <div className="min-h-screen bg-gradient-to-b from-black/50 via-[#332b00]/50 to-black/50">
+        <div className="min-h-screen bg-gradient-to-b from-black/50 via-[#332b00]/80 to-black/50">
           {/* Featured Projects */}
           <FeaturedProjects />
         </div>
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
         
         {/* Questions Section */}
-        <div className="min-h-screen bg-gradient-to-b from-black/50 via-[#332b00]/70 to-[#2b0058]/50">
+        <div className="min-h-screen bg-gradient-to-b from-black/50 via-[#332b00]/80 to-[#2b0058]/50">
           <div className="relative px-6">
             <Questions />
           </div>
