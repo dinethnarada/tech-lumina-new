@@ -39,11 +39,13 @@ const FeaturedProjects = () => {
             imageSrc="/web-development.png"
             title="Web Development"
             description="Let's bring your business into digital space. We deliver web solutions tailored to your business requirements using bleeding-edge solutions."
+            priority
           />
           <ServiceCard
             imageSrc="/ui-ux.jpg"
             title="UI/UX Design"
             description="Attract more customers into your business. We enhance customer experiences and engagement in your web application with intuitive user interfaces."
+            priority
           />
           <ServiceCard
             imageSrc="/strategy.jpg"

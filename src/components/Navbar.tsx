@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full top-0 left-0 z-50 font-regular">
       <div className="mx-auto max-w-5xl md:pt-4 md:px-4">
-        <div className="transparent backdrop-blur-xs md:rounded-full border-b border-white/20 md:border-1 relative">
+        <div className="transparent backdrop-blur-sm md:rounded-full border-b border-white/20 md:border-1 relative">
           <div className="flex flex-col md:flex-row md:items-center">
             {/* Top Bar */}
             <div className="h-20 flex items-center justify-between px-6">
@@ -20,9 +20,13 @@ const Navbar = () => {
                   <Image
                     src="/logo_white.png"
                     alt="Logo"
-                    width={1200}
-                    height={600}
+                    width={240}
+                    height={120}
+                    priority
+                    quality={100}
                     className="h-48 w-auto md:h-48"
+                    placeholder="blur"
+                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAQAAAAZxLZ7AAAAPElEQVR42h3KQQoAIAhEUe9/aC0EZ1yIoB5DfD4WAoQgCILwPeDxUVRRVd29d/cYY6y1zjnXWnvv/wdTzg1yWQ/JAQAAAABJRU5ErkJggg=="
                   />
                 </Link>
               </div>
