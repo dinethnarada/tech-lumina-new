@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import PlexusBackground from "@/components/PlexusBackground";
 import HeroSection from "@/components/HeroSection";
 import FeaturedProjects from "@/components/FeaturedProjects";
 import TechLuminaSolutions from "@/components/TechLuminaSolutions";
@@ -8,12 +7,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="text-white relative min-h-screen bg-[#130420]">
-      {/* Single PlexusBackground for all sections */}
-      <div className="fixed inset-0 z-9">
-        <PlexusBackground />
-      </div>
-
+    <main className="text-white relative min-h-screen">
       {/* Fixed Navbar */}
       <div className="fixed top-0 left-0 right-0 z-50">
         <Navbar />
