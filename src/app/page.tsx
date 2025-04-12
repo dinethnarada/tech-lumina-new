@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import FeaturedProjects from "@/components/FeaturedProjects";
 import TechLuminaSolutions from "@/components/TechLuminaSolutions";
 import Questions from "@/components/Questions";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
           <Questions />
         </div>
       </div>
+      <Footer />
     </main>
   );
 }
