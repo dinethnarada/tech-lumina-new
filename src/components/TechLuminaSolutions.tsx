@@ -56,16 +56,21 @@ const TechLuminaSolutions = () => {
           <div className="md:hidden w-full h-px bg-gradient-to-r from-transparent via-gray-400/20 to-transparent my-8"></div>
 
           {/* Right Column - Image */}
-          <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden z-10">
+          <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden z-10 bg-gray-900/50">
             <Image
               src="/images/about-us-2.jpg"
               alt="Modern workspace"
               fill
-              className="object-cover"
-              quality={90}
-            />
+              className="object-cover transition-opacity duration-300 hover:opacity-95"
+              quality={85}
+              loading="eager"
+              priority
+              sizes="(max-width: 768px) 100vw, 50vw"
+              placeholder="blur"
+              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx4eHRsdHR8fIR0hISEdISMkIyIiIyMkMi4uLi4uMzw8PDw8Q0NDQ0NDQ0NDQ0P/2wBDAR0XFyAeIBsgHB8gISAiLCMsIiwsIiwnJywnLDM4MDAuMDA4OEBAODg4SEg4OEhAQD9APz8/QEBAQEBAQEBAQEj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+              />
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </section>
