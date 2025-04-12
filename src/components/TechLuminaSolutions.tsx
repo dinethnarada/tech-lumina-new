@@ -12,7 +12,7 @@ const TechLuminaSolutions = () => {
         {/* Quote Section */}
         <div className="text-center max-w-3xl mx-auto z-10 mb-20">
           <p className="text-2xl md:text-3xl font-regular italic text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-violet-500 to-indigo-500">
-            "Some people don't like change, but you need to embrace change if the alternative is a disaster."
+            &ldquo;Some people don&apos;t like change, but you need to embrace change if the alternative is a disaster.&rdquo;
           </p>
           <p className="mt-4 text-gray-300">- Elon Musk</p>
         </div>
