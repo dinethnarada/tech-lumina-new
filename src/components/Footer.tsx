@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="h-px bg-gradient-to-r from-transparent via-gray-400/20 to-transparent"></div>
       </div>
 
-      <div className="bg-gradient-to-b from-black to-[#1a0f2e] py-16">
+      <div className="bg-gradient-to-b from-[#2b0058] to-black py-16">
         <div className="max-w-5xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Company Info */}
