@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${alesandRegular.variable} ${alesandBold.variable} ${alesandExtraBold.variable} font-regular antialiased`}
+        className={`${alesandRegular.variable} ${alesandBold.variable} font-regular antialiased`}
       >
         {children}
       </body>
