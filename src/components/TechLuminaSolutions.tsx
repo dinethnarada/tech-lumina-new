@@ -17,9 +17,9 @@ const TechLuminaSolutions = () => {
           <p className="mt-4 text-gray-300">- Elon Musk</p>
         </div>
         <div className="mt-20 bg-white/5 backdrop-blur-sm rounded-lg p-8 shadow-lg relative">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 relative">
           {/* Left Column - Features */}
-          <div className="space-y-12 z-10">
+          <div className="space-y-4 z-10 flex flex-col justify-between h-[384px]">
             <FeatureCard
               title="Expert Team"
               description="Tech Lumina team consists of experts with years of experience in developing and maintaining enterprise-level eCommerce platforms for industry giants."
@@ -56,7 +56,7 @@ const TechLuminaSolutions = () => {
           <div className="md:hidden w-full h-px bg-gradient-to-r from-transparent via-gray-400/20 to-transparent my-8"></div>
 
           {/* Right Column - Image */}
-          <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden z-10 bg-gray-900/50">
+          <div className="relative h-[384px] rounded-lg overflow-hidden z-10 bg-gray-900/50">
             <Image
               src="/images/about-us-2.jpg"
               alt="Modern workspace"
@@ -66,8 +66,6 @@ const TechLuminaSolutions = () => {
               loading="eager"
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
-              placeholder="blur"
-              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx4eHRsdHR8fIR0hISEdISMkIyIiIyMkMi4uLi4uMzw8PDw8Q0NDQ0NDQ0NDQ0P/2wBDAR0XFyAeIBsgHB8gISAiLCMsIiwsIiwnJywnLDM4MDAuMDA4OEBAODg4SEg4OEhAQD9APz8/QEBAQEBAQEBAQEj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
               />
             </div>
           </div>
