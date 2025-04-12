@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <div className="flex-1 pt-40 md:pt-52 pb-20">
+    <div id="hero" className="flex-1 pt-40 md:pt-52 pb-20">
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col gap-12 md:gap-16 items-center text-center">
           <div className="space-y-0">
