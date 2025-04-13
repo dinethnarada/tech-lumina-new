@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const AboutHero = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-transparent via-[#1C054D]/50 to-black/50">
+    <section id="about" className="min-h-screen bg-gradient-to-b from-transparent via-[#1C054D]/50 to-black/50">
       <div className="container mx-auto px-6 pt-32 pb-24">
         <div className="max-w-6xl mx-auto text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center text-white">
@@ -25,7 +25,7 @@ const AboutHero = () => {
               
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/about-us-2.jpg"
+                  src="/images/about-us-1.jpg"
                   alt="Tech Lumina Team"
                   fill
                   className="object-cover"

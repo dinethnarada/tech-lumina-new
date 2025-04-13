@@ -1,36 +1,23 @@
-import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import FeaturedProjects from "@/components/FeaturedProjects";
 import TechLuminaSolutions from "@/components/TechLuminaSolutions";
 import Questions from "@/components/Questions";
-import Footer from "@/components/Footer";
+import Divider from "@/components/Divider";
 
 export default function Home() {
   return (
     <main className="text-white relative min-h-screen">
-      {/* Fixed Navbar */}
-      <div className="fixed top-0 left-0 right-0 z-50">
-        <Navbar />
-      </div>
-
-      {/* Scrollable content */}
       <div className="relative z-10">
         <HeroSection />
-
-        <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+        <Divider />
         
         <FeaturedProjects />
-
-        <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+        <Divider />
         
         <TechLuminaSolutions />
-
-        <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+        <Divider />
         
         <Questions />
-
-        <div className="w-full h-px bg-gradient-to-r from-transparent via-white to-transparent" />
-        <Footer />
       </div>
     </main>
   );

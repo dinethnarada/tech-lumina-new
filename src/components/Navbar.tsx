@@ -24,7 +24,11 @@ const Navbar = () => {
       document.getElementById('hero'),
       document.getElementById('digital-solutions'),
       document.getElementById('tech-lumina-solutions'),
-      document.getElementById('questions')
+      document.getElementById('questions'),
+      document.getElementById('who-we-are'),
+      document.getElementById('values'),
+      document.getElementById('approach'),
+      document.getElementById('about')
     ].filter(Boolean);
 
     sections.forEach(section => {
@@ -68,7 +72,7 @@ const Navbar = () => {
                 <div className="md:hidden">
                   <Link 
                     href="/contact"
-                    className={`bg-transparent text-white px-8 py-3 rounded-full text-sm tracking-widest uppercase transition-all ${activeSection === 'tech-lumina-solutions' ? 'border-[#6B17ED] hover:text-[#6B17ED]' : activeSection === 'digital-solutions' || activeSection === 'questions' ? 'border-[#806c00] hover:text-[#806c00]' : 'border-[#6B17ED] hover:text-[#6B17ED]'} border hover:bg-white hover:border-white`}
+                    className={`bg-transparent text-white px-8 py-3 rounded-full text-sm tracking-widest uppercase transition-all ${activeSection === 'tech-lumina-solutions' ? 'border-[#6B17ED] hover:text-[#6B17ED]' : activeSection === 'digital-solutions' || activeSection === 'questions' || activeSection === 'who-we-are' || activeSection === 'approach' ? 'border-[#806c00] hover:text-[#806c00]' : 'border-[#6B17ED] hover:text-[#6B17ED]'} border hover:bg-white hover:border-white`}
                   >
                     CONTACT
                   </Link>
@@ -88,13 +92,13 @@ const Navbar = () => {
             <div className={`${isOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row md:items-center md:justify-end md:flex-1 px-6 pb-4 md:pb-0 space-y-4 md:space-y-0 md:space-x-8 border-t border-white/10 md:border-0`}>
               <Link 
                 href="/blog" 
-                className={`text-white transition-colors text-sm tracking-widest uppercase ${activeSection === 'tech-lumina-solutions' ? 'hover:text-[#6B17ED]' : activeSection === 'digital-solutions' || activeSection === 'questions' ? 'hover:text-[#806c00]' : 'hover:text-[#6B17ED]'}`}
+                className={`text-white transition-colors text-sm tracking-widest uppercase ${activeSection === 'tech-lumina-solutions' ? 'hover:text-[#6B17ED]' : activeSection === 'digital-solutions' || activeSection === 'questions' || activeSection === 'who-we-are' || activeSection === 'approach' ? 'hover:text-[#806c00]' : 'hover:text-[#6B17ED]'}`}
               >
                 BLOG
               </Link>
               <Link 
                 href="/about" 
-                className={`text-white transition-colors text-sm tracking-widest uppercase ${activeSection === 'tech-lumina-solutions' ? 'hover:text-[#6B17ED]' : activeSection === 'digital-solutions' || activeSection === 'questions' ? 'hover:text-[#806c00]' : 'hover:text-[#6B17ED]'}`}
+                className={`text-white transition-colors text-sm tracking-widest uppercase ${activeSection === 'tech-lumina-solutions' ? 'hover:text-[#6B17ED]' : activeSection === 'digital-solutions' || activeSection === 'questions' || activeSection === 'who-we-are' || activeSection === 'approach' ? 'hover:text-[#806c00]' : 'hover:text-[#6B17ED]'}`}
               >
                 ABOUT
               </Link>
@@ -102,7 +106,7 @@ const Navbar = () => {
               <div className="hidden md:block">
                 <Link 
                   href="/contact"
-                  className={`bg-transparent text-white px-8 py-3 rounded-full text-sm tracking-widest uppercase transition-all ${activeSection === 'tech-lumina-solutions' ? 'border-[#6B17ED] hover:text-[#6B17ED]' : activeSection === 'digital-solutions' || activeSection === 'questions' ? 'border-[#806c00] hover:text-[#806c00]' : 'border-[#6B17ED] hover:text-[#6B17ED]'} border hover:bg-white hover:border-white`}
+                  className={`bg-transparent text-white px-8 py-3 rounded-full text-sm tracking-widest uppercase transition-all ${activeSection === 'tech-lumina-solutions' ? 'border-[#6B17ED] hover:text-[#6B17ED]' : activeSection === 'digital-solutions' || activeSection === 'questions' || activeSection === 'who-we-are' || activeSection === 'approach' ? 'border-[#806c00] hover:text-[#806c00]' : 'border-[#6B17ED] hover:text-[#6B17ED]'} border hover:bg-white hover:border-white`}
                 >
                   CONTACT
                 </Link>

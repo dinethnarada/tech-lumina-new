@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import PlexusBackground from "@/components/PlexusBackground";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 const alesandRegular = localFont({
@@ -31,8 +33,12 @@ export default function RootLayout({
         <div className="fixed inset-0 z-0">
           <PlexusBackground />
         </div>
+        <div className="fixed top-0 left-0 right-0 z-50">
+          <Navbar />
+        </div>
         <div className="relative z-10">
           {children}
+          <Footer />
         </div>
       </body>
     </html>

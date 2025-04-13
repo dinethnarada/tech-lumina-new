@@ -20,12 +20,12 @@ const TechLuminaSolutions = () => {
           <div className="mt-20 bg-white/5 backdrop-blur-sm rounded-lg p-8 shadow-lg relative">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 relative">
             {/* Left Column - Features */}
-            <div className="space-y-4 z-10 flex flex-col justify-between h-[384px]">
+            <div className="space-y-4 z-10">
               <FeatureCard
                 title="Expert Team"
                 description="Tech Lumina's experts specialize in enterprise eCommerce platforms for industry leaders."
                 icon={
-                  <svg className="w-6 h-6 text-[#6B17ED]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="w-8 h-8 md:w-6 md:h-6 text-[#6B17ED]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                   </svg>
                 }
@@ -35,7 +35,7 @@ const TechLuminaSolutions = () => {
                 title="Cutting-edge Tech"
                 description="At Tech Lumina we always keep our tech stack updated while carefully analyzing what is best for you."
                 icon={
-                  <svg className="w-6 h-6 text-[#6B17ED]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="w-8 h-8 md:w-6 md:h-6 text-[#6B17ED]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 }
@@ -45,7 +45,7 @@ const TechLuminaSolutions = () => {
                 title="Dedicated Support"
                 description="We are not done once the product is live. We guarantee 24/7 support and maintenance for your web applications."
                 icon={
-                  <svg className="w-6 h-6 text-[#6B17ED]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="w-8 h-8 md:w-6 md:h-6 text-[#6B17ED]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                   </svg>
                 }
@@ -57,7 +57,7 @@ const TechLuminaSolutions = () => {
             <div className="md:hidden w-full h-px bg-gradient-to-r from-transparent via-gray-400/20 to-transparent my-8"></div>
 
             {/* Right Column - Image */}
-            <div className="relative h-[384px] rounded-lg overflow-hidden z-10 bg-gray-900/50">
+            <div className="relative h-[calc(128px*3+32px)] rounded-lg overflow-hidden z-10 bg-gray-900/50">
               <Image
                 src="/images/about-us-2.jpg"
                 alt="Modern workspace"
