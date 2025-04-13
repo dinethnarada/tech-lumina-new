@@ -42,12 +42,12 @@ const Approach = () => {
     <section id="approach" className="min-h-screen bg-gradient-to-b from-black/50 via-[#332b00]/80 to-[#2b0058]/50">
       <div className="container mx-auto px-6 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">OUR APPROACH</h2>
-          <p className="text-xl text-gray-300">A SYSTEMATIC PROCESS THAT ENSURES SUCCESS IN EVERY PROJECT</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Approach</h2>
+          <p className="text-xl text-gray-300">A systematic process that ensures success in every project</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {steps.map((step, index) => (
+          {steps.map((step) => (
             <div
               key={step.title}
               className="bg-white/5 backdrop-blur-sm rounded-lg p-8 hover:bg-white/10 transition-all"

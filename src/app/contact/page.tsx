@@ -8,8 +8,8 @@ export default function Contact() {
           <div className="container mx-auto px-6 pt-32 pb-24">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
-                <h1 className="text-4xl md:text-5xl font-bold mb-8">GET IN TOUCH</h1>
-                <p className="text-xl text-gray-300">READY TO START YOUR NEXT PROJECT? CONTACT US TODAY AND LET'S DISCUSS HOW WE CAN HELP BRING YOUR VISION TO LIFE.</p>
+                <h1 className="text-4xl md:text-5xl font-bold mb-8">Get In Touch</h1>
+                <p className="text-xl text-gray-300">Ready to start your next project? Contact us today and let&apos;s discuss how we can help bring your vision to life.</p>
               </div>
               <ContactForm />
             </div>

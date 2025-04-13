@@ -33,12 +33,12 @@ const Values = () => {
     <section id="values" className="min-h-screen bg-gradient-to-b from-black/50 via-[#1C054D]/50 to-black/50">
       <div className="container mx-auto px-6 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">OUR VALUES</h2>
-          <p className="text-xl text-gray-300">GUIDED BY PRINCIPLES THAT DRIVE INNOVATION AND EXCELLENCE</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Values</h2>
+          <p className="text-xl text-gray-300">Guided by principles that drive innovation and excellence</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {values.map((value, index) => (
+          {values.map((value) => (
             <div
               key={value.title}
               className="bg-white/5 backdrop-blur-sm rounded-lg p-8 text-center hover:bg-white/10 transition-all"
