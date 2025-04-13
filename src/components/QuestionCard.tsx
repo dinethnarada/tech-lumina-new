@@ -12,7 +12,7 @@ const QuestionCard = ({ question, answer }: QuestionCardProps) => {
 
   return (
     <div 
-      className="bg-[#1a0f2e]/50 backdrop-blur-sm rounded-[24px] overflow-hidden cursor-pointer group"
+      className="bg-[#332b00]/20 backdrop-blur-sm rounded-[24px] overflow-hidden cursor-pointer group"
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className="p-6">

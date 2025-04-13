@@ -2,7 +2,8 @@ import QuestionCard from './QuestionCard';
 
 const Questions = () => {
   return (
-    <section id="questions" className="relative min-h-screen">
+    <section id="questions" className="min-h-screen bg-gradient-to-b from-black/50 via-[#332b00]/80 to-[#2b0058]/50">
+      <div className="relative px-6">
       {/* Divider Line */}
       <div className="absolute top-0 left-0 w-full">
         <div className="h-px bg-gradient-to-r from-transparent via-gray-400/20 to-transparent"></div>
@@ -33,6 +34,7 @@ const Questions = () => {
           />
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

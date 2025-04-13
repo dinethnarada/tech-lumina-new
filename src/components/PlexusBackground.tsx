@@ -23,7 +23,7 @@ const PlexusBackground = () => {
 
     // Particles
     const particlesGeometry = new THREE.BufferGeometry();
-    const particleCount = 100;
+    const particleCount = 200;
     const positions = new Float32Array(particleCount * 3);
     const velocities: { x: number; y: number; z: number }[] = [];
 
