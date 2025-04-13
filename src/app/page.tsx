@@ -15,35 +15,19 @@ export default function Home() {
 
       {/* Scrollable content */}
       <div className="relative z-10">
-        {/* Hero Section */}
-        <div className="min-h-screen bg-gradient-to-b from-transparent via-[#1C054D]/50 to-black/50">
-          <HeroSection />
-        </div>
+        <HeroSection />
 
         <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
         
-        <div className="min-h-screen bg-gradient-to-b from-black/50 via-[#332b00]/80 to-black/50">
-          {/* Featured Projects */}
-          <FeaturedProjects />
-        </div>
+        <FeaturedProjects />
 
         <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
         
-        {/* Tech Lumina Solutions */}
-        <div className="min-h-screen bg-gradient-to-b from-black/50 via-[#1C054D]/50 to-black/50">
-          <div className="relative px-6">
-            <TechLuminaSolutions />
-          </div>
-        </div>
+        <TechLuminaSolutions />
 
         <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
         
-        {/* Questions Section */}
-        <div className="min-h-screen bg-gradient-to-b from-black/50 via-[#332b00]/80 to-[#2b0058]/50">
-          <div className="relative px-6">
-            <Questions />
-          </div>
-        </div>
+        <Questions />
 
         <div className="w-full h-px bg-gradient-to-r from-transparent via-white to-transparent" />
         <Footer />

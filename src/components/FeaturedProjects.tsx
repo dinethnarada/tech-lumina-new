@@ -4,7 +4,7 @@ const FeaturedProjects = () => {
   return (
     <section 
       id="featured-projects"
-      className="relative min-h-screen bg-gradient-to-b from-transparent via-[#332b00]/30 to-black/50"
+      className="min-h-screen bg-gradient-to-b from-black/50 via-[#332b00]/80 to-black/50"
     >
       <div id="digital-solutions" className="relative z-10 max-w-5xl mx-auto py-20 px-6">
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">Digital Solutions & Tech Services</h2>
