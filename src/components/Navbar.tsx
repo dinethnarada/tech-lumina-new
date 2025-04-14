@@ -89,7 +89,7 @@ const Navbar = () => {
             </div>
 
             {/* Navigation Links */}
-            <div className={`${isOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row md:items-center md:justify-end md:flex-1 px-6 pb-4 md:pb-0 space-y-4 md:space-y-0 md:space-x-8 border-t border-white/10 md:border-0`}>
+            <div className={`${isOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row md:items-center md:justify-end md:flex-1 px-6 pb-4 md:pb-0 pt-6 md:pt-0 space-y-4 md:space-y-0 md:space-x-8 border-t border-white/10 md:border-0`}>
               <Link 
                 href="/blog" 
                 className={`text-white transition-colors text-sm tracking-widest uppercase ${activeSection === 'tech-lumina-solutions' ? 'hover:text-[#6B17ED]' : activeSection === 'digital-solutions' || activeSection === 'questions' || activeSection === 'who-we-are' || activeSection === 'approach' ? 'hover:text-[#806c00]' : 'hover:text-[#6B17ED]'}`}
