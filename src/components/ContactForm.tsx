@@ -1,6 +1,43 @@
 'use client';
 
+import { useState} from 'react';
+
 const ContactForm = () => {
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    company: '',
+    message: '',
+  });
+
+  // Handle form submission
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    fetch('api/send', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        company: formData.company,
+        message: formData.message
+      })
+    })
+
+    setFormData({ name: '', email: '', company: '', message: '' });
+    
+  };
+
+  // Handle form change
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
       {/* Left Column - Contact Information */}
@@ -60,12 +97,16 @@ const ContactForm = () => {
 
       {/* Right Column - Contact Form */}
       <div className="bg-white/5 backdrop-blur-sm rounded-lg p-8">
-        <form className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label htmlFor="name" className="block text-sm font-medium mb-2">NAME</label>
             <input
               type="text"
               id="name"
+              name='name'
+              value={formData.name}
+              onChange={handleChange}
+              required
               className="w-full px-4 py-3 bg-white/5 border border-violet-500/20 rounded-lg focus:outline-none focus:border-violet-500/40 text-white placeholder-gray-400"
               placeholder="YOUR NAME"
             />
@@ -76,6 +117,10 @@ const ContactForm = () => {
             <input
               type="email"
               id="email"
+              name='email'
+              value={formData.email}
+              onChange={handleChange}
+              required
               className="w-full px-4 py-3 bg-white/5 border border-violet-500/20 rounded-lg focus:outline-none focus:border-violet-500/40 text-white placeholder-gray-400"
               placeholder="YOUR@EMAIL.COM"
             />
@@ -86,6 +131,10 @@ const ContactForm = () => {
             <input
               type="text"
               id="company"
+              name='company'
+              value={formData.company}
+              onChange={handleChange}
+              required
               className="w-full px-4 py-3 bg-white/5 border border-violet-500/20 rounded-lg focus:outline-none focus:border-violet-500/40 text-white placeholder-gray-400"
               placeholder="YOUR COMPANY NAME"
             />
@@ -95,6 +144,10 @@ const ContactForm = () => {
             <label htmlFor="message" className="block text-sm font-medium mb-2">MESSAGE</label>
             <textarea
               id="message"
+              name='message'
+              value={formData.message}
+              onChange={handleChange}
+              required
               rows={6}
               className="w-full px-4 py-3 bg-white/5 border border-violet-500/20 rounded-lg focus:outline-none focus:border-violet-500/40 text-white placeholder-gray-400 resize-none"
               placeholder="TELL US ABOUT YOUR PROJECT"
