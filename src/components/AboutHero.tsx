@@ -3,14 +3,14 @@ import Image from 'next/image';
 const AboutHero = () => {
   return (
     <section id="about" className="min-h-screen bg-gradient-to-b from-transparent via-[#1C054D]/50 to-black/50">
-      <div className="container mx-auto px-6 pt-32 pb-24">
+      <div className="container mx-auto px-6 pt-32">
         <div className="max-w-6xl mx-auto text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center text-white">
             About Tech Lumina
           </h1>
           
-          <div className="mt-20 bg-white/5 backdrop-blur-sm rounded-lg p-8 shadow-lg relative">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16 mt-12">
+          <div className="mt-8 bg-white/5 backdrop-blur-sm rounded-lg p-8 shadow-lg relative">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6 text-left">
                 <p className="text-lg text-gray-300 leading-relaxed text-center">
                   We are a bunch of innovative and creative minds dedicated to designing and developing scalable, durable web solutions bespoked to meet your unique demands. We bring your dream of stepping into the digital world a reality through bleeding-edge technologies and exceptional design.
@@ -29,7 +29,12 @@ const AboutHero = () => {
                   alt="Tech Lumina Team"
                   fill
                   className="object-cover"
-                  quality={90}
+                  quality={85}
+                  loading="eager"
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx4eHRoaHSQtJyEwMTQ5Pzc2ODoyMjpHREZFNjpGOjIxWU9RUV9iXWJfP0FPWnNYWF3/2wBDARUXFx0dHR4eHR0dHV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV3/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAb/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
                 />
               </div>
             </div>

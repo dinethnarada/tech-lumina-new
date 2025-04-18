@@ -9,11 +9,11 @@ interface ServiceCardProps {
 
 const ServiceCard = ({ imageSrc = '/placeholder.jpg', title, description, priority = false }: ServiceCardProps) => {
   return (
-    <div className="group h-[400px] bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 overflow-hidden transition-all duration-500 hover:-translate-y-1">
-      <div className="flex h-full">
+    <div className="group bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 overflow-hidden transition-all duration-500 hover:-translate-y-1">
+      <div className="flex flex-col md:flex-row min-h-[400px] md:h-[400px]">
         {/* Image Container */}
-        <div className="w-1/2 p-6">
-          <div className="relative h-full rounded-xl overflow-hidden">
+        <div className="w-full md:w-1/2 p-4 md:p-6">
+          <div className="relative h-48 md:h-full rounded-xl overflow-hidden">
             <Image
               src={imageSrc}
               alt={title}
@@ -29,13 +29,13 @@ const ServiceCard = ({ imageSrc = '/placeholder.jpg', title, description, priori
           </div>
         </div>
         
-        {/* Divider */}
-        <div className="w-px bg-gradient-to-b from-transparent via-white/10 to-transparent my-6" />
+        {/* Divider - Only visible on desktop */}
+        <div className="hidden md:block w-px bg-gradient-to-b from-transparent via-white/10 to-transparent my-6" />
         
         {/* Content */}
-        <div className="w-1/2 p-8 flex flex-col justify-center text-center">
-          <h3 className="text-2xl mb-4 font-bold">{title}</h3>
-          <p className="text-gray-300">{description}</p>
+        <div className="w-full md:w-1/2 p-4 md:p-8 flex flex-col justify-center">
+          <h3 className="text-xl md:text-2xl mb-2 md:mb-4 font-bold">{title}</h3>
+          <p className="text-sm md:text-base text-gray-300">{description}</p>
         </div>
       </div>
     </div>

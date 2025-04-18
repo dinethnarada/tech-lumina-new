@@ -9,7 +9,8 @@ export default function Contact() {
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-16">
                 <h1 className="text-4xl md:text-5xl font-bold mb-8">Get In Touch</h1>
-                <p className="text-xl text-gray-300">Ready to start your next project? Contact us today and let&apos;s discuss how we can help bring your vision to life.</p>
+                <p className="text-xl text-gray-300">Ready to start your next project?</p>
+                <p className="text-xl text-gray-300">Contact us today and let&apos;s discuss how we can help bring your vision to life.</p>
               </div>
               <ContactForm />
             </div>
