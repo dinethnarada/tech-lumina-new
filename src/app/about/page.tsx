@@ -6,8 +6,8 @@ import Divider from '@/components/Divider';
 
 export default function About() {
   return (
-    <main className="text-white relative min-h-screen">
-      <div className="relative z-10">
+    <main className="text-white relative min-h-screen mx-auto max-w-5xl md:px-4">
+      <div className="relative z-10 px-6 md:px-0">
         <AboutHero />
         <Divider />
         <WhoWeAre />

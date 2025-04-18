@@ -11,10 +11,10 @@ const Footer = () => {
       </div>
 
       <div className="bg-gradient-to-b from-[#2b0058]/50 to-black py-16">
-        <div className="max-w-5xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="mx-auto max-w-5xl md:px-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 px-6 md:px-0 text-center">
             {/* Company Info */}
-            <div>
+            <div className="flex flex-col items-center">
               <h3 className="text-xl font-bold mb-4">Tech Lumina</h3>
               <p className="text-gray-400">
               Crafting Tomorrow&apos;s Websites, Today.
@@ -22,9 +22,9 @@ const Footer = () => {
             </div>
 
             {/* Quick Links */}
-            <div>
+            <div className="flex flex-col items-center">
               <h3 className="text-xl font-bold mb-4">Quick Links</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2 flex flex-col items-center">
                 <li>
                   <Link href="/#digital-solutions" className="text-gray-400 hover:text-[#806c00] transition-colors">
                     Digital Solutions
@@ -44,9 +44,9 @@ const Footer = () => {
             </div>
 
             {/* Contact */}
-            <div>
+            <div className="flex flex-col items-center">
               <h3 className="text-xl font-bold mb-4">Contact</h3>
-              <ul className="space-y-2 text-gray-400">
+              <ul className="space-y-2 text-gray-400 flex flex-col items-center">
                 <li>Email: contact@techlumina.com</li>
                 <li>Phone: +94 (078) 869-5286</li>
                 <li>Location: Colombo, SriLanka</li>
@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
 
           {/* Social Links */}
-          <div className="mt-12 pt-8 border-t border-gray-800 text-center">
+          <div className="mt-12 pt-8 border-t border-gray-800 text-center px-6 md:px-0">
             <div className="flex justify-center space-x-6 mb-6">
               <a 
                 href="https://www.linkedin.com/company/tech-lumina/" 
