@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="min-h-screen bg-gradient-to-b from-transparent via-[#1C054D]/50 to-black/50">
-      <div className="px-6 flex flex-col min-h-screen">
-        <div className="flex-1 pt-40 md:pt-52 pb-20">
+    <section id="hero" className="min-h-[80vh] md:min-h-screen bg-gradient-to-b from-transparent via-[#1C054D]/50 to-black/50">
+      <div className="px-6 flex flex-col min-h-[80vh] md:min-h-screen">
+        <div className="flex-1 pt-32 md:pt-52 pb-12 md:pb-20">
           <div className="max-w-5xl mx-auto">
             <div className="flex flex-col gap-12 md:gap-16 items-center text-center">
               <div className="space-y-0">
