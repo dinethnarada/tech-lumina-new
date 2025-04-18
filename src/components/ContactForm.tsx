@@ -6,7 +6,7 @@ const ContactForm = () => {
       {/* Left Column - Contact Information */}
       <div>
         <div className="bg-white/5 backdrop-blur-sm rounded-lg p-8">
-          <h2 className="text-2xl font-bold mb-8">CONTACT INFORMATION</h2>
+          <h2 className="text-2xl font-bold mb-8 text-center">Contact Information</h2>
           
           <div className="space-y-6">
             <div className="flex items-start gap-4">
@@ -17,8 +17,8 @@ const ContactForm = () => {
                 </svg>
               </div>
               <div>
-                <p className="font-bold mb-1">ADDRESS</p>
-                <p className="text-gray-300">TECH LUMINA, COLOMBO, SRI LANKA</p>
+                <p className="font-bold mb-1">Address</p>
+                <p className="text-gray-300">Tech Lumina, Colombo, Sri Lanka</p>
               </div>
             </div>
 
@@ -29,8 +29,8 @@ const ContactForm = () => {
                 </svg>
               </div>
               <div>
-                <p className="font-bold mb-1">EMAIL</p>
-                <p className="text-gray-300">CONTACT@TECHLUMINA.COM</p>
+                <p className="font-bold mb-1">Email</p>
+                <p className="text-gray-300">contact@techlumina.com</p>
               </div>
             </div>
 
@@ -41,18 +41,18 @@ const ContactForm = () => {
                 </svg>
               </div>
               <div>
-                <p className="font-bold mb-1">PHONE</p>
+                <p className="font-bold mb-1">Phone</p>
                 <p className="text-gray-300">+94 (123) 456 7890</p>
               </div>
             </div>
           </div>
 
           <div className="mt-8">
-            <h3 className="font-bold mb-4">OFFICE HOURS</h3>
+            <h3 className="font-bold mb-4">Office Hours</h3>
             <div className="space-y-2 text-gray-300">
-              <p>MONDAY - FRIDAY: 9:00 AM - 6:00 PM</p>
-              <p>SATURDAY: BY APPOINTMENT</p>
-              <p>SUNDAY: CLOSED</p>
+              <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+              <p>Saturday: By Appointment</p>
+              <p>Sunday: Closed</p>
             </div>
           </div>
         </div>
