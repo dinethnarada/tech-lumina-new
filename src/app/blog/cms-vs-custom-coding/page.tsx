@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "CMS vs Custom Coding: What's the Best Fit for Your Website? | Tech Lumina Blog",
+  title: "CMS vs Custom Coding: What&apos;s the Best Fit for Your Website? | Tech Lumina Blog",
   description: "Explore the pros and cons of using a CMS versus custom coding for your website. Learn which approach best suits your business needs, considering factors like scalability, security, and maintenance."
 };
 
@@ -9,7 +9,7 @@ export default function BlogPost() {
       <div className="mx-auto max-w-5xl md:px-4 pt-32 pb-20">
         <div className="px-6 md:px-0 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-8 text-white">
-            CMS vs Custom Coding: What's the Best Fit for Your Website?
+            CMS vs Custom Coding: What&apos;s the Best Fit for Your Website?
           </h1>
           
           <div className="flex items-center text-sm text-gray-400 mb-12">
@@ -20,13 +20,13 @@ export default function BlogPost() {
 
           <div className="prose prose-invert max-w-none">
             <p className="text-lg leading-relaxed mb-8">
-              If you're a developer—or even just someone building a website for your business—you've probably asked yourself this at some point:
+              If you&apos;re a developer—or even just someone building a website for your business—you&apos;ve probably asked yourself this at some point:
               Should I go with a CMS (Content Management System) or build the site from scratch with custom code?
             </p>
 
             <p className="text-lg leading-relaxed mb-8">
-              It's also one of the most common questions we get from clients at Tech Lumina. So, let's break it down in a way that's easy to understand. 
-              To keep things simple, we'll use a bakery as an example and look at the key things you should consider before making your decision.
+              It&apos;s also one of the most common questions we get from clients at Tech Lumina. So, let&apos;s break it down in a way that&apos;s easy to understand. 
+              To keep things simple, we&apos;ll use a bakery as an example and look at the key things you should consider before making your decision.
             </p>
 
             <h2 className="text-2xl font-bold mt-12 mb-6">🧁 1. Scalability: How Big Are You Planning to Grow?</h2>
@@ -67,15 +67,12 @@ export default function BlogPost() {
               much more affordable initially, which makes them a solid choice for small businesses or startups.
             </p>
             <p className="mb-8">
-              But if your business starts growing quickly, you might hit a wall and need to rebuild from scratch anyway. That's where custom 
-              coding shines—it's built to grow with you. Plus, thanks to AI and automation, we're now able to cut custom development costs 
-              and time by around 40% compared to a few years ago.
+              But if your business starts growing quickly, you might hit a wall and need to rebuild from scratch. That's where custom coding shines—it's built to grow with you. Plus, thanks to AI and automation, we're now able to cut custom development costs and time by around 40% compared to a few years ago.
             </p>
 
             <h2 className="text-2xl font-bold mt-12 mb-6">👩‍💻 5. Tech Skills: Who's Managing the Site?</h2>
             <p className="mb-6">
-              One of the big advantages of CMS platforms is that you don't need to be a tech expert to use them. You can easily update content, 
-              manage products, or write blog posts without touching a single line of code.
+              One of the big advantages of CMS platforms is that you don't need to be a tech expert to use them. You can easily update content, manage products, or write blog posts without touching a single line of code.
             </p>
             <p className="mb-8">
               Custom development, on the other hand, requires deeper technical knowledge—and usually a developer to handle changes or maintenance. 

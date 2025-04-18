@@ -20,15 +20,15 @@ export default function BlogPost() {
 
           <div className="prose prose-invert max-w-none">
             <p className="text-lg leading-relaxed mb-8">
-              Let's say a client approaches us to build a website for their bakery that sells products across the entire country. 
-              This isn't just any small website—it's a large-scale platform that will handle lots of traffic and transactions. 
-              For projects like this, it's important to clearly define expectations between the client and the development team. 
-              This is where a Service Level Agreement (SLA) comes in.
+              Let&apos;s say a client approaches us to build a website for their bakery that sells products across the entire country. 
+              This isn&apos;t just any small website—it&apos;s a large-scale platform that will handle lots of traffic and transactions. 
+              For projects like this, it&apos;s important to clearly define expectations between the client and the development team. 
+              That's where a Service Level Agreement (SLA) comes in.
             </p>
 
             <p className="text-lg leading-relaxed mb-8">
-              An SLA outlines what both parties agree on regarding the software's quality, performance, support, and more. 
-              Here's what we typically include in an SLA at Tech Lumina:
+              Let's say your bakery's website experiences an outage during the morning rush—e software's quality, performance, support, and more. 
+              Here&apos;s what we typically include in an SLA at Tech Lumina:
             </p>
 
             <h2 className="text-2xl font-bold mt-12 mb-6">1. Availability</h2>
@@ -87,6 +87,7 @@ export default function BlogPost() {
             <ul className="list-disc pl-6 mb-8 space-y-2">
               <li>Support availability (e.g., 24/7 support)</li>
               <li>Issue classification (e.g., Criticality and Priority)</li>
+              <li>It's crucial to have clear expectations about system availability.</li>
             </ul>
 
             <h2 className="text-2xl font-bold mt-12 mb-6">7. Feature Updates</h2>
