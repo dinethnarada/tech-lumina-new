@@ -15,7 +15,7 @@ export default function BlogPost() {
           <div className="flex items-center text-sm text-gray-400 mb-12">
             <span>April 15, 2025</span>
             <span className="mx-2">•</span>
-            <span>6 min read</span>
+            <span>7 min read</span>
           </div>
 
           <div className="prose prose-invert max-w-none">
