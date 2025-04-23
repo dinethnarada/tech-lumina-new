@@ -79,7 +79,7 @@ export default function BlogPost() {
               <li>Recovery time objectives (how quickly we&apos;ll restore the system after failure)</li>
             </ul>
 
-            <h2 className="text-2xl font-bold mt-12 mb-6">6. Support & Issue Resolution</h2>
+            <h2 className="text-2xl font-bold mt-12 mb-6">📞 6. Support & Issue Resolution</h2>
             <p className="mb-6">
               If something goes wrong, our team steps in to fix it. The SLA defines:
             </p>
@@ -89,7 +89,7 @@ export default function BlogPost() {
               <li>It&apos;s crucial to have clear expectations about system availability.</li>
             </ul>
 
-            <h2 className="text-2xl font-bold mt-12 mb-6">7. Feature Updates</h2>
+            <h2 className="text-2xl font-bold mt-12 mb-6">🔄 7. Feature Updates</h2>
             <p className="mb-6">
               Sometimes, clients want new features like a product recommendation system. The SLA also covers:
             </p>
