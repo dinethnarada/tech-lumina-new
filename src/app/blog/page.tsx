@@ -7,7 +7,7 @@ const blogPosts = [
     imageSrc: "/blog/cms-vs-custom.jpg",
     slug: "cms-vs-custom-coding",
     date: "April 15, 2025",
-    readTime: "6 min read"
+    readTime: "7 min read"
   },
   {
     title: 'Service Level Agreement (SLA) – Explained with a Real-world Example',
@@ -15,7 +15,7 @@ const blogPosts = [
     imageSrc: '/blog/sla.jpg',
     slug: 'service-level-agreement',
     date: 'April 18, 2025',
-    readTime: '7 min read'
+    readTime: '5 min read'
   },
 ];
 

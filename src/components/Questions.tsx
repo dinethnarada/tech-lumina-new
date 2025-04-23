@@ -22,7 +22,7 @@ const Questions = () => {
           />
           <QuestionCard
             question="What Technologies Do You Use For Web Development?"
-            answer="We utilize modern technologies like React, Next.js, and Node.js for frontend and backend development. Our tech stack is constantly updated to include the latest and most efficient tools while maintaining stability and performance."
+            answer="We utilize modern technologies like React, Next.js, Node.js and Spring Boot for frontend and backend development. Our tech stack is constantly updated to include the latest and most efficient tools while maintaining stability and performance."
           />
           <QuestionCard
             question="How Do You Ensure Website Security?"
