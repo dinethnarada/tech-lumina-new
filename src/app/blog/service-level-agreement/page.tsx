@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Service Level Agreement (SLA) : Explained with a Real-world Example | Tech Lumina Blog',
+  title: 'Service Level Agreement (SLA) : Explained with a Real World Example | Tech Lumina Blog',
   description: 'Learn about Service Level Agreements (SLAs) through a real world example of a bakery e-commerce website. Understand key components like availability, performance, security, and maintenance.',
 };
 
@@ -9,7 +9,7 @@ export default function BlogPost() {
       <div className="mx-auto max-w-5xl md:px-4 pt-32 pb-20">
         <div className="px-6 md:px-0 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-8 text-white">
-            Service Level Agreement (SLA) : Explained with a Real world Example
+            Service Level Agreement (SLA) : Explained with a Real World Example
           </h1>
           
           <div className="flex items-center text-sm text-gray-400 mb-12">
