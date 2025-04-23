@@ -11,7 +11,7 @@ const blogPosts = [
   },
   {
     title: 'Service Level Agreement (SLA) – Explained with a Real-world Example',
-    content: "Let's say a client approaches us to build a website for their bakery that sells products across the entire country. This isn't just any small website—it's a large-scale platform that will handle lots of traffic and transactions. For projects like this, it's important to clearly define expectations between the client and the development team. This is where a Service Level Agreement (SLA) comes in.",
+    content: "Let's say a client approaches us to build a website for their bakery that sells products across the entire country. This isn't just any small website. It's a large-scale platform that will handle lots of traffic and transactions. For projects like this, it's important to clearly define expectations between the client and the development team. This is where a Service Level Agreement (SLA) comes in.",
     imageSrc: '/blog/sla.jpg',
     slug: 'service-level-agreement',
     date: 'April 18, 2025',
