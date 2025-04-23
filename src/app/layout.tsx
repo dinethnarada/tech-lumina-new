@@ -21,9 +21,19 @@ export const metadata: Metadata = {
     apple: '/favicon.ico',
   },
   title: "Tech Lumina - Crafting Tomorrow\'s Websites, Today",
-  description: "Tech Lumina provides cutting-edge digital solutions and web development services to transform your business.",
-  metadataBase: new URL('https://techlumina.com'),
-  keywords: ['tech lumina', 'digital solutions', 'technology services', 'tech solutions', 'digital technology', 'tech services', 'contact tech lumina', 'innovative solutions'],
+  description: "Tech Lumina provides cutting edge digital solutions and web development services to transform your business.",
+  keywords: [
+    'web development', 'modern websites', 'UI/UX design', 'digital strategy', 'web solutions',
+    'custom web development', 'responsive web design', 'website development company',
+    'professional web services', 'web application development', 'frontend development',
+    'backend development', 'full stack development', 'mobile-friendly websites',
+    'enterprise web solutions', 'ecommerce development', 'web optimization',
+    'website maintenance', 'website security', 'performance optimization',
+    'SEO friendly websites', 'modern web technologies', 'scalable web applications',
+    'tech lumina startup', 'digital solutions', 'technology services', 'web consulting',
+    'website analytics', 'user experience design', 'digital transformation', "lumina tech", "tech blog", "tech lumina"
+  ],
+  metadataBase: new URL('https://tech-lumina.com'),
   authors: [{ name: 'Tech Lumina Team' }],
   creator: 'Tech Lumina',
   publisher: 'Tech Lumina',
@@ -35,9 +45,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://techlumina.com',
+    url: 'https://tech-lumina.com',
     title: 'Tech Lumina - Crafting Tomorrow\'s Websites, Today',
-    description: "Tech Lumina provides cutting-edge digital solutions and web development services to transform your business.",
+    description: "Tech Lumina provides cutting edge digital solutions and web development services to transform your business.",
     siteName: 'Tech Lumina',
     images: [{
       url: 'https://tech-lumina.com/logo.png',
@@ -49,7 +59,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Tech Lumina - Crafting Tomorrow's Websites, Today",
-    description: "Tech Lumina provides cutting-edge digital solutions and web development services to transform your business.",
+    description: "Tech Lumina provides cutting edge digital solutions and web development services to transform your business.",
     images: [
       {
         url: 'https://tech-lumina.com/logo.png',
