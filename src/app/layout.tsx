@@ -16,8 +16,66 @@ const alesandBold = localFont({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
   title: "Tech Lumina - Crafting Tomorrow\'s Websites, Today",
   description: "Tech Lumina provides cutting-edge digital solutions and web development services to transform your business.",
+  metadataBase: new URL('https://techlumina.com'),
+  keywords: ['tech lumina', 'digital solutions', 'technology services', 'tech solutions', 'digital technology', 'tech services', 'contact tech lumina', 'innovative solutions'],
+  authors: [{ name: 'Tech Lumina Team' }],
+  creator: 'Tech Lumina',
+  publisher: 'Tech Lumina',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://techlumina.com',
+    title: 'Tech Lumina - Crafting Tomorrow\'s Websites, Today',
+    description: "Tech Lumina provides cutting-edge digital solutions and web development services to transform your business.",
+    siteName: 'Tech Lumina',
+    images: [{
+      url: 'https://tech-lumina.com/logo.png',
+      width: 1200,
+      height: 630,
+      alt: 'Tech Lumina - Crafting Tomorrow\'s Websites, Today'
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Tech Lumina - Crafting Tomorrow's Websites, Today",
+    description: "Tech Lumina provides cutting-edge digital solutions and web development services to transform your business.",
+    images: [
+      {
+        url: 'https://tech-lumina.com/logo.png',
+        alt: "Tech Lumina - Crafting Tomorrow's Websites, Today",
+      }
+    ],
+    creator: '@techlumina',
+    site: '@techlumina',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-verification-code',
+    yandex: 'your-yandex-verification-code',
+    yahoo: 'your-yahoo-verification-code',
+  },
+  category: 'technology'
 };
 
 export default function RootLayout({
