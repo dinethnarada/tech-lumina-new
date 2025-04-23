@@ -88,8 +88,9 @@ export default function BlogPost() {
               or you&apos;re planning to expand in the near future, investing in custom development could save you a lot of time, money, and frustration 
               down the road.
             </p>
+            <h2 className="text-2xl font-bold mt-12 mb-6">At Tech Lumina</h2>
             <p className="mb-8">
-              At Tech Lumina, we don&apos;t just build websites. We build solutions that can scale with your business. That means we&apos;ll take a deep dive 
+              We don&apos;t just build websites. We build solutions that can scale with your business. That means we&apos;ll take a deep dive 
               into your goals, your roadmap, and your customer journey to recommend the best fit whether that&apos;s a CMS, custom code, or a smart mix of both.
             </p>
           </div>
