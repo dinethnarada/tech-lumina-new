@@ -18,9 +18,9 @@ const alesandBold = localFont({
 export const metadata: Metadata = {
   icons: {
     icon: '/favicon.ico',
-    apple: '/favicon.ico',
+    apple: '/favicon.ico'
   },
-  title: "Tech Lumina - Crafting Tomorrow\'s Websites, Today",
+  title: "Tech Lumina - Crafting Tomorrow\'s Websites, Today | Home",
   description: "Tech Lumina provides cutting edge digital solutions and web development services to transform your business.",
   keywords: [
     'web development', 'modern websites', 'UI/UX design', 'digital strategy', 'web solutions',
