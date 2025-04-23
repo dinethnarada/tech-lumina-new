@@ -20,7 +20,7 @@ const blogPosts = [
 ];
 
 export const metadata = {
-  title: 'Blog | Tech Lumina',
+  title: 'Tech Lumina - Crafting Tomorrow\'s Websites, Today | Blog',
   description: 'Stay updated with the latest trends and insights in web development, technology, and digital innovation.',
 };
 

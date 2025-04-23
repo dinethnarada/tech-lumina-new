@@ -16,7 +16,7 @@ const alesandBold = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Tech Lumina - Digital Innovation Solutions",
+  title: "Tech Lumina - Crafting Tomorrow\'s Websites, Today",
   description: "Tech Lumina provides cutting-edge digital solutions and web development services to transform your business.",
 };
 
