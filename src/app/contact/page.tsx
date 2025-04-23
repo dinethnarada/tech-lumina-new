@@ -1,5 +1,10 @@
 import ContactForm from "@/components/ContactForm";
 
+export const metadata = {
+  title: 'Tech Lumina - Crafting Tomorrow\'s Websites, Today | Contact',
+  description: 'Get in touch with us',
+};
+
 export default function Contact() {
   return (
     <main className="text-white relative min-h-screen bg-gradient-to-b from-black/50 via-[#332b00]/80 to-[#2b0058]/50">

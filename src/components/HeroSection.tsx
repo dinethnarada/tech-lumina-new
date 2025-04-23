@@ -22,7 +22,7 @@ const HeroSection = () => {
                   {"/* "}
                   Crafting Tomorrow&apos;s
                   <br className="md:hidden" />
-                  Websites, Today! 
+                  &nbsp;Websites, Today! 
                   {" */"}
                 </p>
                 <div className="mt-4">
