@@ -34,9 +34,14 @@ const PortfolioCard = ({ item }: PortfolioCardProps) => {
       
       {/* Overlay with Explore button - only visible on hover */}
       <div className="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <button className="px-6 py-3 bg-white text-black rounded-full font-bold transform transition-transform duration-300 hover:scale-105">
-          Explore
-        </button>
+        <a
+          href={item.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-2.5 bg-gradient-to-r from-[#806c00] to-[#6B17ED] text-white rounded-md font-medium text-sm transform transition-transform duration-300 hover:opacity-90"
+        >
+          Explore More
+        </a>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ export interface PortfolioItem {
   title: string;
   description: string;
   imageSrc: string;
+  link: string;
 }
 
 // Blog types

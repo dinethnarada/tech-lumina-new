@@ -39,7 +39,7 @@ const BlogCard = ({ title, content, imageSrc, slug, date, readTime }: BlogCardPr
         </p>
         <Link 
           href={`/blog/${slug}`}
-          className="inline-block px-6 py-2 bg-gradient-to-r from-[#806c00] to-[#6B17ED] text-white rounded-lg hover:opacity-90 transition-opacity"
+          className="inline-block px-6 py-2.5 bg-gradient-to-r from-[#806c00] to-[#6B17ED] text-white rounded-md font-medium text-sm transform transition-transform duration-300 hover:opacity-90"
         >
           Read More
         </Link>
