@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function Portfolio() {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-black/50 via-[#1E0B2D]/50 to-black/50">
+    <section className="min-h-screen bg-gradient-to-b from-black/50 via-[#332b00]/80 to-[#2b0058]/50">
       <div className="mx-auto max-w-5xl md:px-4 pt-32">
         <div className="px-6 md:px-0 text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center text-white">
