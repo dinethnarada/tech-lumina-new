@@ -1,14 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { BlogPost } from '@/types';
 
-interface BlogCardProps {
-  title: string;
-  content: string;
-  imageSrc: string;
-  slug: string;
-  date: string;
-  readTime: string;
-}
+type BlogCardProps = BlogPost;
 
 const BlogCard = ({ title, content, imageSrc, slug, date, readTime }: BlogCardProps) => {
   // Get first 150 characters of content for preview
