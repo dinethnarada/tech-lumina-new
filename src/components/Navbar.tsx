@@ -5,10 +5,17 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 const Navbar = () => {
+  // Use null as initial state to avoid hydration mismatch
   const [isOpen, setIsOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState('hero');
+  const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
+    // Only run this effect on the client side
+    if (typeof window === 'undefined') return;
+    
+    // Set initial active section after client-side hydration
+    setActiveSection('hero');
+    
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach(entry => {
@@ -95,6 +102,12 @@ const Navbar = () => {
                 className={`text-white transition-colors text-sm tracking-widest uppercase ${activeSection === 'tech-lumina-solutions' ? 'hover:text-[#6B17ED]' : activeSection === 'digital-solutions' || activeSection === 'questions' || activeSection === 'who-we-are' || activeSection === 'approach' ? 'hover:text-[#806c00]' : 'hover:text-[#6B17ED]'}`}
               >
                 BLOG
+              </Link>
+              <Link 
+                href="/portfolio" 
+                className={`text-white transition-colors text-sm tracking-widest uppercase ${activeSection === 'tech-lumina-solutions' ? 'hover:text-[#6B17ED]' : activeSection === 'digital-solutions' || activeSection === 'questions' || activeSection === 'who-we-are' || activeSection === 'approach' ? 'hover:text-[#806c00]' : 'hover:text-[#6B17ED]'}`}
+              >
+                PORTFOLIO
               </Link>
               <Link 
                 href="/about" 
