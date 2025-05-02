@@ -57,17 +57,19 @@ const TechLuminaSolutions = () => {
             <div className="md:hidden w-full h-px bg-gradient-to-r from-transparent via-gray-400/20 to-transparent my-8"></div>
 
             {/* Right Column - Image */}
-            <div className="relative h-[calc(128px*3+32px)] rounded-lg overflow-hidden z-10 bg-gray-900/50">
-              <Image
-                src="/images/about-us-2.jpg"
-                alt="Modern workspace"
-                fill
-                className="object-cover transition-opacity duration-300 hover:opacity-95"
-                quality={85}
-                loading="eager"
-                priority
-                sizes="(max-width: 768px) 100vw, 50vw"
-                />
+            <div className="hidden md:block">
+              <div className="relative h-[calc(128px*3+32px)] rounded-lg overflow-hidden z-10 bg-gray-900/50">
+                <Image
+                  src="/images/about-us-2.jpg"
+                  alt="Modern workspace"
+                  fill
+                  className="object-cover transition-opacity duration-300 hover:opacity-95"
+                  quality={85}
+                  loading="eager"
+                  priority
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                </div>
               </div>
             </div>
           </div>

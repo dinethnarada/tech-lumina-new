@@ -3,10 +3,10 @@ import Link from 'next/link';
 const HeroSection = () => {
   return (
     <section id="hero" className="min-h-[50vh] md:min-h-screen bg-gradient-to-b from-transparent via-[#1C054D]/50 to-black/50">
-      <div className="px-6 flex flex-col min-h-[50vh] md:min-h-screen">
-        <div className="flex-1 pt-32 md:pt-52 pb-6 md:pb-20">
-          <div className="max-w-5xl mx-auto">
-            <div className="flex flex-col gap-6 md:gap-16 items-center text-center">
+      <div className="px-6 flex flex-col min-h-screen md:min-h-screen items-center justify-center">
+        <div className="flex-1 flex items-center justify-center">
+          <div className="max-w-5xl mx-auto text-center">
+            <div className="flex flex-col gap-6 md:gap-16 items-center">
               <div className="space-y-0">
                 <h1 className="text-6xl md:text-7xl lg:text-8xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white/80 to-white/80 font-bold">
                   TECH LUMINA
