@@ -4,29 +4,22 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: 1,
     title: 'E-Commerce Platform',
-    description: 'A fully responsive e-commerce solution with integrated payment gateways and inventory management.',
-    imageSrc: '/portfolio/ecommerce.jpg',
-    link: 'https://example.com/ecommerce'
+    description: 'A fully responsive e-commerce platform sample tailored for clothing brands',
+    imageSrc: '/images/ecommerce.jpg',
+    link: 'https://stitch-and-story.vercel.app'
   },
   {
     id: 2,
-    title: 'Hotel Booking Website',
-    description: 'A user-friendly hotel booking website with advanced search and filtering capabilities.',
-    imageSrc: '/portfolio/hotel.jpg',
-    link: 'https://example.com/hotel'
+    title: 'Travel Agency Website',
+    description: 'User-friendly sample website for a travel agency to explore Sri Lanka.',
+    imageSrc: '/images/travel.jpg',
+    link: 'https://travel-mock-liard.vercel.app'
   },
   {
     id: 3,
-    title: 'Travel Agency Website',
-    description: 'User-friendly travel booking interface with itinerary planning and recommendation features.',
-    imageSrc: '/portfolio/travel.jpg',
-    link: 'https://example.com/travel'
-  },
-  {
-    id: 4,
     title: 'Blog Website',
-    description: 'User-friendly blog website with advanced search and filtering capabilities.',
-    imageSrc: '/portfolio/blog.jpg',
-    link: 'https://example.com/blog'
+    description: 'User-friendly blog website sample for movie reviews.',
+    imageSrc: '/images/blog.jpg',
+    link: 'https://blog-bros.vercel.app'
   }
 ];

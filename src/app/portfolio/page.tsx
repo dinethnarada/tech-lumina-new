@@ -3,8 +3,8 @@ import PortfolioCard from '@/components/PortfolioCard';
 import { portfolioItems } from '@/data/portfolioData';
 
 export const metadata: Metadata = {
-  title: 'Tech Lumina - Our Portfolio | Showcasing Our Digital Excellence',
-  description: 'Explore Tech Lumina\'s portfolio of web development projects, UI/UX designs, and digital solutions that demonstrate our expertise and innovation.',
+  title: 'Tech Lumina - Crafting Tomorrow\'s Websites, Today | Portfolio',
+  description: 'Explore our projects',
   keywords: [
     'tech lumina portfolio', 'web development portfolio',
     'digital solutions showcase', 'web projects',
