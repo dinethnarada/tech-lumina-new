@@ -10,26 +10,26 @@ const WhoWeAre = () => {
         <TeamMemberCard
                 name="Yasiru Rathnayaka"
                 role="Associate Technical Lead at Sysco Labs (PVT) LTD"
-                imageUrl="/images/yasiru.jpg"
+                imageUrl="/images/team/yasiru.jpg"
                 linkedinUrl="https://www.linkedin.com/in/yasiru-rathnayaka/"
                 imagePosition="down"
               />
               <TeamMemberCard
                 name="Thisun Dayarathna"
                 role="Senior Software Engineer at Sysco Labs (PVT) LTD"
-                imageUrl="/images/thisun.jpg"
+                imageUrl="/images/team/thisun.jpg"
                 linkedinUrl="https://www.linkedin.com/in/thisundayarathna/"
               />
               <TeamMemberCard
                 name="Savindu Ekanayake"
                 role="Senior Software Engineer at Sysco Lab (PVT) LTD"
-                imageUrl="/images/savindu.jpg"
+                imageUrl="/images/team/savindu.jpg"
                 linkedinUrl="https://www.linkedin.com/in/savinduekanayake/"
               />
               <TeamMemberCard
                 name="Dineth Athapaththu"
                 role="Senior Software Engineer at Sysco Labs (Pvt) Ltd"
-                imageUrl="/images/dineth.jpg"
+                imageUrl="/images/team/dineth.jpg"
                 linkedinUrl="https://www.linkedin.com/in/dineth-athapaththu/"
               />
         </div>

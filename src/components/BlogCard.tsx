@@ -10,7 +10,7 @@ const BlogCard = ({ title, content, imageSrc, slug, date, readTime }: BlogCardPr
 
   return (
     <div className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 overflow-hidden transition-all duration-500 hover:-translate-y-1">
-      <div className="relative h-48 md:h-64">
+      <div className="relative h-40 sm:h-48 md:h-56">
         <Image
           src={imageSrc}
           alt={title}
@@ -23,23 +23,23 @@ const BlogCard = ({ title, content, imageSrc, slug, date, readTime }: BlogCardPr
           blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx0fHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx3/2wBDAR0XFx8dHx8dHx8dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx0dHx3/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
         />
       </div>
-      <div className="p-6">
-        <h3 className="text-xl md:text-2xl font-bold mb-4 text-white hover:text-violet-400 transition-colors">
+      <div className="p-4 sm:p-6">
+        <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-4 text-white hover:text-violet-400 transition-colors line-clamp-2">
           <Link href={`/blog/${slug}`}>
             {title}
           </Link>
         </h3>
-        <div className="flex items-center text-sm text-gray-400 mb-4">
+        <div className="flex items-center text-xs sm:text-sm text-gray-400 mb-2 sm:mb-4">
           <span>{date}</span>
           <span className="mx-2">•</span>
           <span>{readTime}</span>
         </div>
-        <p className="text-gray-300 mb-6">
+        <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base line-clamp-3">
           {contentPreview}
         </p>
         <Link 
           href={`/blog/${slug}`}
-          className="inline-block px-6 py-2.5 bg-gradient-to-r from-[#806c00] to-[#6B17ED] text-white rounded-md font-medium text-sm transform transition-transform duration-300 hover:opacity-90"
+          className="inline-block px-4 sm:px-6 py-3 bg-gradient-to-r from-[#806c00] to-[#6B17ED] text-white rounded-md font-medium text-sm transform transition-transform duration-300 hover:opacity-90 w-full sm:w-auto text-center"
         >
           Read More
         </Link>
